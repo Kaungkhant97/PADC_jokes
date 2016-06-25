@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="right"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rdBtn_group"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdBtn_sofunny"
+            android:text="@string/sofunny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rdBtn_funny"
+            android:text="@string/funny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_next"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/next"
+        android:background="@drawable/roundedbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rdBtn_group"
+       />
+    <Button
+        android:id="@+id/btn_previous"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedbutton"
+        android:elevation="6dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        android:layout_toLeftOf="@id/btn_next"
+        android:layout_below="@id/rdBtn_group" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ဟာသပဒေသာ</string>
+    <string name="action_settings">Settings</string>
+    <string name ="previous">အရင်ဟာပျပါ</string>
+    <string name = "next">နောက်တစ်ခု</string>
+    <string name = "sofunny">အရမ်းရီးရတယ်</string>
+    <string name = "funny">ရီးရတယ်</string>
+
+</resources>
